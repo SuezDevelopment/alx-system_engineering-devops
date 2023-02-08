@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Print the type of the file named iamafile in the /tmp directory
+file_type=$(file /tmp/iamafile)
+echo "The type of the file /tmp/iamafile is: $file_type"
