@@ -1,2 +1,3 @@
 #!/bin/bash
-for file in *.html; do if ["$file" -nt ../"$file"]; then cp "$file" ../ fi done
+find . -type f -name "*.html" -exec sh -c 'if [ "$(find "../{}" -newer {})" == "" ] then cp "{}" "../{}" fi' \
+
