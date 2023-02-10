@@ -1,10 +1,2 @@
 #!/bin/bash
-
-# Check if my_first_directory exists
-if [ -d "/tmp/my_first_directory" ]; then
-  # Move the file betty from /tmp/ to /tmp/my_first_directory/
-  mv /tmp/betty /tmp/my_first_directory/
-else
-  # my_first_directory does not exist
-  echo "Error: directory /tmp/my_first_directory does not exist."
-fi
+mv /tmp/betty /tmp/my_first_directory/

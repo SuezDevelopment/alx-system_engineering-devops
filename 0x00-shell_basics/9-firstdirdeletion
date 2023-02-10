@@ -1,7 +1,2 @@
 #!/bin/bash
-
-# Change to the /tmp directory
-cd /tmp
-
-# Delete the directory my_first_directory
-rm -r my_first_directory
+cd /tmp; rm -r my_first_directory

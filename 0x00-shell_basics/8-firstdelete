@@ -1,7 +1,2 @@
 #!/bin/bash
-
-# Change to the /tmp/my_first_directory directory
-cd /tmp/my_first_directory
-
-# Delete the file betty
-rm betty
+cd /tmp/my_first_directory; rm betty
